@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-color: #a76d9b;
-} */
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    size: 2px;
+}
