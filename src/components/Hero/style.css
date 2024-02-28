@@ -1,0 +1,72 @@
+@media only screen and (min-width: 1400px) {
+    #title {
+        font-size: 50px;
+    }
+
+    #subtitle {
+        font-size: 30px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+    #title {
+        font-size: 50px;
+    }
+
+    #subtitle {
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+
+    }
+}
+
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
+    #title {
+        font-size: 45px;
+    }
+
+    #subtitle {
+        font-size: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+    #title {
+        font-size: 35px;
+    }
+
+    #subtitle {
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    #title {
+        font-size: 25px;
+    }
+
+    #subtitle {
+        font-size: 15px;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+.hero-img {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
