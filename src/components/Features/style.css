@@ -1,0 +1,50 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the column width as needed */
+  gap: 26px; /* Adjust the gap between grid items */
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 700px) {
+  .features {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the column width for smaller screens */
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+.card {
+  padding: 30px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fffafe;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 13px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #000000;
+}
+
+#card-heading {
+  font-size: 30px;
+}
+
+
+@media only screen and (max-width: 499px) {
+  #card-heading {
+    font-size: 25px;
+  }
+}
+
