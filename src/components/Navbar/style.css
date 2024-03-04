@@ -12,3 +12,13 @@ img {
 .mx-2:hover {
     color: #ffa1a1; /* Change color to pink when hovered */
 }
+
+.mx-3 {
+    margin: 0 1rem;
+    transition: color 0.3s;
+    color:#ffa1a1 /* Smooth transition effect */
+
+}
+.mx-3:hover {
+    color: gray;
+}

@@ -31,10 +31,13 @@ const RequestDemo = () => {
   return (
     <section className="bg-primary py-10">
       <div className="container mx-auto p-6">
+        <div className="demo-block" >
         <h2 className="text-2xl font-bold italic mb-4">Request a Demo</h2>
         <p className="form-wrapper">
           Experience the future of <em className='italic font-bold'>digital journaling</em> and see for yourself how it can revolutionise your <em className='italic font-bold'>productivity</em>
         </p>
+        </div>
+       
         <form onSubmit={handleSubmit} className=" form-style mx-auto flex flex-wrap gap-4 pt-16 ">
           <div className="flex-1 field-wrapper">
             <label htmlFor="name" className="block text-sm font-bold mb-2">
