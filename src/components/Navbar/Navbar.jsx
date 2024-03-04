@@ -11,9 +11,9 @@ const Navbar = () => {
                         <img src="src\assets\reflectify-high-resolution-logo-transparent.png" alt="" />
                     </div>
                     <div className=" text-lg hidden md:block ">
-                        <a href="#features" className="mx-2">Features</a>
-                        <a href="#demo" className="mx-2">Request a demo</a>
-                        <a href="#newsletter" className="mx-2">Sign up for the newsletter</a>
+                        <a href="#features" className="mx-2 font-bold">Features</a>
+                        <a href="#demo" className="mx-2 font-bold">Request a demo</a>
+                        <a href="#newsletter" className="mx-2 italic font-bold">Sign up for the newsletter</a>
                     </div>
                 </div>
             </nav>

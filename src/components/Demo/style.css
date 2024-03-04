@@ -1,0 +1,17 @@
+.form-wrapper {
+    max-width: 300px;
+}
+
+.form-style {
+    max-width: 48rem;
+}
+
+@media only screen and (max-width: 867px)  {
+    .form-style {
+        max-width: 10rem;
+    }
+    .submit-btn {
+        margin-left: 3rem;
+        
+    }
+}
