@@ -1,5 +1,2 @@
 # Reflectify
 
-
-
-gubkjklopjihlnjo;kpfyth
